@@ -14,10 +14,10 @@
 }
 
 .text-area {
-    border-left: 1px solid white;
-    width: 800px;
+    border-left: 4px solid white;
+    width: 600px;
     height: 300px;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-left: 350px;
 }
 
@@ -35,4 +35,14 @@
 
 .about-text.p {
     margin-top: 10px;
+}
+
+#left-div {
+    float:left;
+}
+
+#right-div {
+    float:left;
+    margin-top: 40px;
+    font-size: x-large;
 }

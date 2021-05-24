@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Navbar } from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { Navbar } from './components/Navbar';
 import { Home } from './components/Home';
 import { About } from './components/About';
 import { Work } from './components/Work';

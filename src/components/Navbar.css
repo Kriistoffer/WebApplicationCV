@@ -58,7 +58,7 @@
 }
 
 .nav-bottom {
-    margin-left: 20px;
+    text-align: center;
 }
 
 .nav-dl-cv {
@@ -74,4 +74,20 @@
 	padding:16px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
+}
+
+.contact-area {
+    margin-top: 100px;
+}
+
+.contact-icon {
+    position: relative;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.contact-icon2 {
+    position: relative;
+    margin-left: 30px;
+    cursor: pointer;
 }
