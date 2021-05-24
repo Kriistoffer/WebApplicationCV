@@ -14,7 +14,7 @@ export class Navbar extends Component {
                         to="home"
                         spy={true}
                         smooth={true}
-                        offset={-10}
+                        offset={-300}
                         duration={500}>
                         <img src={Logo} className="profilepic" alt="Logo" />
                     </Link>
