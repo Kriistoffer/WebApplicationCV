@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Logo from '../assets/profile_pic.png';
 import './Navbar.css';
 import { Link } from 'react-scroll';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export class Navbar extends Component {
     render() {
@@ -13,9 +14,9 @@ export class Navbar extends Component {
                         to="home"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-10}
                         duration={500}>
-                            <img src={ Logo } className="profilepic" alt="Logo" />
+                        <img src={Logo} className="profilepic" alt="Logo" />
                     </Link>
                 </div>
                 <div className="namespace">
@@ -28,9 +29,9 @@ export class Navbar extends Component {
                         to="about"
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-70}
                         duration={500}>
-                    <button className="nav-btn">Om</button>
+                        <button className="nav-btn">Om</button>
                     </Link>
 
                     <Link
@@ -40,7 +41,7 @@ export class Navbar extends Component {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                    <button className="nav-btn">Arbete</button>
+                        <button className="nav-btn">Arbete</button>
                     </Link>
 
                     <Link
@@ -50,7 +51,7 @@ export class Navbar extends Component {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                    <button className="nav-btn">Utbildning</button>
+                        <button className="nav-btn">Utbildning</button>
                     </Link>
 
                     <Link
@@ -60,7 +61,7 @@ export class Navbar extends Component {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                    <button className="nav-btn">Kvalifikationer</button>
+                        <button className="nav-btn">Kvalifikationer</button>
                     </Link>
 
                     <Link
@@ -70,13 +71,14 @@ export class Navbar extends Component {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                    <button className="nav-btn">Projekt</button>
+                        <button className="nav-btn">Projekt</button>
                     </Link>
                 </div>
                 <div className="nav-bottom">
                     <button className="nav-dl-cv">Ladda ner CV</button>
                     <div className="contact-area">
-                        {/* <p>Links to Git, LinkedIn</p> */}
+                        <FaGithub className="contact-icon" size="3em" color="white"/>
+                        <FaLinkedin className="contact-icon2" size="3em" color="white"/>
                     </div>
                 </div>
             </div>
