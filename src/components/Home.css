@@ -5,6 +5,7 @@
 /*Architects Daughter*/
 
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 .home-section {
@@ -19,16 +20,18 @@
 }
 
 .intro-firstname {
-    margin-top: 120px;
-    margin-left: 120px;
+    margin-top: 100px;
+    margin-left: 80px;
     font-size: 10em;
     color: white;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .intro-lastname {
     margin-top: 0px;
     margin-bottom: 10px;
-    margin-left: 290px;
+    margin-left: 230px;
     font-size: 12em;
     color: white;
+    font-family: 'Permanent Marker', cursive;
 }
