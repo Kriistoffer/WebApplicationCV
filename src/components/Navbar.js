@@ -4,6 +4,8 @@ import './Navbar.css';
 import { Link } from 'react-scroll';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { NavButton } from './NavButton';
+import { IoIosMail } from "react-icons/io";
+
 
 export class Navbar extends Component {
     render() {
@@ -32,7 +34,7 @@ export class Navbar extends Component {
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                        <NavButton value="Om"/>
+                        <NavButton value="Om" />
                     </Link>
 
                     <Link
@@ -42,7 +44,7 @@ export class Navbar extends Component {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <NavButton value="Arbete"/>
+                        <NavButton value="Arbete" />
                     </Link>
 
                     <Link
@@ -52,7 +54,7 @@ export class Navbar extends Component {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <NavButton value="Utbildning"/>
+                        <NavButton value="Utbildning" />
                     </Link>
 
                     <Link
@@ -62,7 +64,7 @@ export class Navbar extends Component {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <NavButton value="Kvalifikationer"/>
+                        <NavButton value="Kvalifikationer" />
                     </Link>
 
                     <Link
@@ -72,16 +74,21 @@ export class Navbar extends Component {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <NavButton value="Projekt"/>
+                        <NavButton value="Projekt" />
                     </Link>
                 </div>
                 <div className="nav-bottom">
                     <button className="nav-dl-cv">Ladda ner CV</button>
                     <div className="contact-area">
+                        <div>
+                            <IoIosMail className="contact-mail" size="3em" color="white"/>
+                        </div>
                         <a href="https://github.com/Kriistoffer" target="_blank">
-                        <FaGithub className="contact-icon" size="3em" color="white"/>
+                            <FaGithub className="contact-icon" size="3em" color="white" />
                         </a>
-                        <FaLinkedin className="contact-icon2" size="3em" color="white"/>
+                        <a href="https://www.linkedin.com/in/kristoffer-johansson-5735591a0/" target="_blank">
+                        <FaLinkedin className="contact-icon2" size="3em" color="white" />
+                        </a>
                     </div>
                 </div>
             </div>
