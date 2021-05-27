@@ -3,6 +3,7 @@ import Logo from '../assets/profile_pic.png';
 import './Navbar.css';
 import { Link } from 'react-scroll';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { NavButton } from './NavButton';
 
 export class Navbar extends Component {
     render() {
@@ -12,7 +13,7 @@ export class Navbar extends Component {
                     <Link
                         activeClass="active"
                         to="home"
-                        spy={true}
+                        spy={false}
                         smooth={true}
                         offset={-300}
                         duration={500}>
@@ -27,51 +28,51 @@ export class Navbar extends Component {
                     <Link
                         activeClass="active"
                         to="about"
-                        spy={true}
+                        spy={false}
                         smooth={true}
                         offset={-70}
                         duration={500}>
-                        <button className="nav-btn">Om</button>
+                        <NavButton value="Om"/>
                     </Link>
 
                     <Link
                         activeClass="active"
                         to="work"
-                        spy={true}
+                        spy={false}
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <button className="nav-btn">Arbete</button>
+                        <NavButton value="Arbete"/>
                     </Link>
 
                     <Link
                         activeClass="active"
                         to="education"
-                        spy={true}
+                        spy={false}
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <button className="nav-btn">Utbildning</button>
+                        <NavButton value="Utbildning"/>
                     </Link>
 
                     <Link
                         activeClass="active"
                         to="qualifications"
-                        spy={true}
+                        spy={false}
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <button className="nav-btn">Kvalifikationer</button>
+                        <NavButton value="Kvalifikationer"/>
                     </Link>
 
                     <Link
                         activeClass="active"
                         to="projects"
-                        spy={true}
+                        spy={false}
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <button className="nav-btn">Projekt</button>
+                        <NavButton value="Projekt"/>
                     </Link>
                 </div>
                 <div className="nav-bottom">

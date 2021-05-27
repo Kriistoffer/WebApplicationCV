@@ -12,9 +12,9 @@ export class Home extends Component {
                 <div className="intro-lastname">
                     Johansson
                 </div>
-                <div classname="intro-subtext">
+                <div classname="intro-text">
                 <TypeWriterEffect
-                        textStyle={{ fontFamily: '',
+                        textStyle={{ fontFamily: 'VT323',
                         color: "white",
                         fontSize: "2em" }}
                         startDelay={1500}
