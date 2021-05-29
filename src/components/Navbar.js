@@ -80,15 +80,19 @@ export class Navbar extends Component {
                 <div className="nav-bottom">
                     <button className="nav-dl-cv">Ladda ner CV</button>
                     <div className="contact-area">
-                        <div>
-                            <IoIosMail className="contact-mail" size="3em" color="white"/>
-                        </div>
-                        <a href="https://github.com/Kriistoffer" target="_blank">
-                            <FaGithub className="contact-icon" size="3em" color="white" />
-                        </a>
-                        <a href="https://www.linkedin.com/in/kristoffer-johansson-5735591a0/" target="_blank">
-                        <FaLinkedin className="contact-icon2" size="3em" color="white" />
-                        </a>
+                            <div className="column middle">
+                                <IoIosMail className="contact-icon" size="2em" />
+                            </div>
+                            <div className="column left">
+                                <a href="https://github.com/Kriistoffer" target="_blank">
+                                    <FaGithub className="contact-icon" size="2em" />
+                                </a>
+                            </div>
+                            <div className="column right">
+                                <a href="https://www.linkedin.com/in/kristoffer-johansson-5735591a0/" target="_blank">
+                                    <FaLinkedin className="contact-icon" size="2em" />
+                                </a>
+                            </div>
                     </div>
                 </div>
             </div>

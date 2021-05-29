@@ -1,6 +1,6 @@
 .navbar-side {
     height: 100vh;
-    width: 220px;
+    width: 12%;
     top: 0;
     left: 0;
     position: fixed;
@@ -9,61 +9,56 @@
 }
 
 .logo {
-    margin-top: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 15%;
     cursor: pointer;
 }
 
 .profilepic {
-    width: 180px;
-    margin-left: 20px;
-    border-radius: 100px;
+    width: 100%;
+    border-radius: 50%;
     border: 2px solid white;
 }
 
+.profilepic:hover {
+    border: 2px solid orange;
+}
+
 .namespace {
+    width: 70%;
+    margin: auto;
     margin-top: 20px;
     text-align: center;
 }
 
 .nametag1 {
+    width: 100%;
     color: white;
-    font-size: x-large;
+    font-size: 1.5vw;
     font-family: Permanent Marker;
 }
 
 .nametag2 {
     color: white;
-    font-size: xx-large;
+    font-size: 1.8vw;
     font-family: Permanent Marker;
 }
 
 .nav-items {
-    text-align: center;
+    width: 80%;
     margin-top: 50px;
-    margin-left: 50px;
-}
-
-.nav-btn {
-    background-color: transparent;
-	border-radius:10px;
-	border: transparent;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:8px 16px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #2f6627;
-    display: block;
-    margin-top: 14px;
+    align-content: center;
+    margin: auto;
 }
 
 .nav-bottom {
-    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .nav-dl-cv {
+    width: 100%;
     margin-top: 60px;
     background-color:transparent;
 	border-radius:28px;
@@ -72,28 +67,50 @@
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:17px;
+	font-size:0.9vw;
 	padding:16px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
+
+}
+
+.nav-dl-cv:hover {
+    border: 1px solid orange;
+}
+
+.row {
+    width: 100%;
+}
+
+.middle {
+    text-align: center;
+    width: 100%;
+}
+
+.left {
+    text-align: center;
+    width: 50%;
+    float: left;
+    margin-top: 15%;
+}
+
+.right {
+    text-align: center;
+    width: 50%;
+    float: right;
+    margin-top: 15%;
 }
 
 .contact-area {
-    margin-top: 25px;
-}
-
-.contact-mail {
-    margin-bottom: 30px;
-    cursor: pointer;
+    width: 100%;
+    margin-top: 15%;
 }
 
 .contact-icon {
-    position: relative;
     cursor: pointer;
+    color: white;
 }
 
-.contact-icon2 {
-    position: relative;
-    cursor: pointer;
-    margin-left: 30px;
+.contact-icon:hover {
+    color: orange;
 }

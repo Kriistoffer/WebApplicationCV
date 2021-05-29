@@ -5,25 +5,32 @@ import TypeWriterEffect from 'react-typewriter-effect';
 export class Home extends Component {
     render() {
         return (
-            <div className="home-section" id="home">
-                <div className="intro-firstname">
-                    Kristoffer
+            <section className="home-section" id="home">
+                <div className="home">
+                    <div className="intro-firstname">
+                        Kristoffer
                 </div>
-                <div className="intro-lastname">
-                    Johansson
+                    <div className="intro-lastname">
+                        Johansson
                 </div>
-                <div classname="intro-text">
-                <TypeWriterEffect
-                        textStyle={{ fontFamily: 'VT323',
-                        color: "white",
-                        fontSize: "2em" }}
-                        startDelay={1500}
-                        cursorColor="white"
-                        text="Studerande inom objektorienterad programmering..</>"
-                        typeSpeed={100}
-                        scrollArea={document} />
+                    <div className="row1">
+                        <div className="column1"></div>
+                        <div classname="intro-text">
+                            <TypeWriterEffect
+                                textStyle={{
+                                    fontFamily: 'VT323',
+                                    color: "white",
+                                    fontSize: "2vw"
+                                }}
+                                startDelay={1500}
+                                cursorColor="white"
+                                text="Studerande inom objektorienterad programmering..</>"
+                                typeSpeed={100}
+                                scrollArea={document} />
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
         );
     }
 }
