@@ -1,32 +1,38 @@
 import React, { Component } from 'react';
 import './About.css';
-import Aboutpic from '../assets/about_pic.jpg';
+import About_photo from '../assets/about_pic.jpg';
 
 export class About extends Component {
     render() {
         return (
-            <body className="background">
-                <div className="about-section" id="about">
-                    <div className="about-photo">
-                        <img src={ Aboutpic } className="about-photo" alt="Photo of me" id="left-div"/>
-                        <div className="about-text" id="right-div">
-                            <p>Namn: Kristoffer Johansson.</p>
-                            <p>Ålder: 28 år.</p>
-                            <p>Bor: Kungälv.</p>
+            <section className="about-section" id="about">
+                <div className="about-area">
+                    <div className="top-section">
+                        <div className="photo-section">
+                            <img src={About_photo} alt="profile of me" className="about-photo" />
                         </div>
+
+                        <div className="photo-text">
+                            <h1 className="h1-text">Namn: Kristoffer Johansson</h1>
+                            <h1 className="h1-text">Ålder: 28 år</h1>
+                            <h1 className="h1-text">Bor: Kungälv</h1>
+                        </div>
+
                     </div>
-                    <div className="text-area">
-                        <h1 className="about-text">OM MIG</h1>
-                        <p className="about-text">
-                            Mitt namn är Kristoffer Johansson. Text text text. Text text text. Text text text. Text text text. Text text text. {"\n"}
-                            Text text text. Text text text. Text text text. Text text text. Text text text. Text text text. Text text text. Text text text. {"\n"}
-                            Text text text. Text text text. Text text text. Text text text. Text text text. Text text text. Text text text. Text text text. 
-                            Text text text. Text text text. Text text text. Text text text. Text text text. Text text text. Text text text. Text text text. 
-                            Text text text. Text text text. Text text text. Text text text. Text text text. Text text text. {"\n"}
-                        </p>
+
+                    <div className="bottom-section">
+                        <div className="text-section">
+                            <p className="p-text">Mitt namn är Kristoffer Johansson. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. 
+                            Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. 
+                            Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. 
+                            Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. </p>
+
+                            <p className="p-text">asdhaksd aksdhaksjdh kajhsdkashd kajhsdakd kjahsdkajhsd kjahsdkajhsd jkhasdkahds kjhasdkjha jkhasdkjahd kjahsdkjas</p>
+                        </div>
+
                     </div>
                 </div>
-            </body>
+            </section>
         );
     }
 }

@@ -32,7 +32,7 @@ export class Navbar extends Component {
                         to="about"
                         spy={false}
                         smooth={true}
-                        offset={-70}
+                        offset={-130}
                         duration={500}>
                         <NavButton value="Om" />
                     </Link>
