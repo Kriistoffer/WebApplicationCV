@@ -32,7 +32,7 @@ export class Navbar extends Component {
                         to="about"
                         spy={false}
                         smooth={true}
-                        offset={-130}
+                        offset={0} //-130
                         duration={500}>
                         <NavButton value="Om" />
                     </Link>
@@ -64,7 +64,7 @@ export class Navbar extends Component {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <NavButton value="Kvalifikationer" />
+                        <NavButton value="Tekniker" />
                     </Link>
 
                     <Link
@@ -80,19 +80,19 @@ export class Navbar extends Component {
                 <div className="nav-bottom">
                     <button className="nav-dl-cv">Ladda ner CV</button>
                     <div className="contact-area">
-                            <div className="column middle">
-                                <IoIosMail className="contact-icon" size="2em" />
-                            </div>
-                            <div className="column left">
-                                <a href="https://github.com/Kriistoffer" target="_blank">
-                                    <FaGithub className="contact-icon" size="2em" />
-                                </a>
-                            </div>
-                            <div className="column right">
-                                <a href="https://www.linkedin.com/in/kristoffer-johansson-5735591a0/" target="_blank">
-                                    <FaLinkedin className="contact-icon" size="2em" />
-                                </a>
-                            </div>
+                        <div className="column middle">
+                            <IoIosMail className="contact-icon" size="2em" />
+                        </div>
+                        <div className="column left">
+                            <a href="https://github.com/Kriistoffer" target="_blank">
+                                <FaGithub className="contact-icon" size="2em" />
+                            </a>
+                        </div>
+                        <div className="column right">
+                            <a href="https://www.linkedin.com/in/kristoffer-johansson-5735591a0/" target="_blank">
+                                <FaLinkedin className="contact-icon" size="2em" />
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

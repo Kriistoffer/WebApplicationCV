@@ -5,8 +5,8 @@ import About_photo from '../assets/about_pic.jpg';
 export class About extends Component {
     render() {
         return (
-            <section className="about-section" id="about">
-                <div className="about-area">
+            <section className="about-section div-border" id="about">
+                <div className="about-area div-border">
                     <div className="top-section">
                         <div className="photo-section">
                             <img src={About_photo} alt="profile of me" className="about-photo" />

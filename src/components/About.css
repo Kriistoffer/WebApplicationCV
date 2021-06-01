@@ -25,6 +25,7 @@
 .about-photo {
     width: 100%;
     border-radius: 25%;
+    border: 2px solid white;
 }
 
 .photo-text {
