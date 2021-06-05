@@ -7,7 +7,7 @@ export class Home extends Component {
     render() {
         return (
 
-            <Container className="home-section">
+            <Container className="home-section" id="home">
                 <Row>
                     <Col className="intro-firstname">
                         <p>Kristoffer</p>
