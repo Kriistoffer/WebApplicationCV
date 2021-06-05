@@ -181,14 +181,16 @@ body {
     .logo:hover {
         border: 2px solid white;
     }
-
-    .github-icon:hover {
+    /*Unsure whether or not I want the hover effect on the GitHub and LinkedIn logos while
+      the hamburger menu is activated.*/
+      
+    /* .github-icon:hover {
         color: white;
     }
 
     .linkedin-icon:hover {
         color: white;
-    }
+    } */
 }
 
 @media only screen and (max-width: 440px) {

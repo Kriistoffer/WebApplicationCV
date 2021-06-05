@@ -10,20 +10,16 @@
 
 .home-section {
     height: 100vh;
+    width: 100vw;
     top: 0;
     margin-top: 0;
-}
-
-.home {
-    width: 80%;
-    margin-left: 15%;
+    padding-top: 150px;
 }
 
 .intro-firstname {
     width: 100%;
     margin-top: 2%;
-    margin-left: 10%;
-    /* padding-left: 10%; */
+    margin-left: 0%;
     font-size: 10vw;
     color: white;
     font-family: 'Permanent Marker', cursive;
@@ -31,8 +27,8 @@
 
 .intro-lastname {
     width: 100%;
-    margin-top: 5%;
-    margin-left: 15%;
+    margin-top: 0%;
+    margin-left: 8%;
     /* padding-left: 15%; */
     font-size: 12vw;
     color: white;
@@ -41,7 +37,7 @@
 
 .intro-text {
     /* padding-left: 12%; */
-    margin-left: 12%;
+    margin-left: 0%;
 }
 
 .row1 {
@@ -53,4 +49,10 @@
     float: left;
     width: 11%;
     border: 2px solid black;
+}
+
+@media only screen and (max-width: 920px) {
+    .home-section {
+        height: 80vh;
+    }
 }

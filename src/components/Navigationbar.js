@@ -16,14 +16,16 @@ function Navigationbar() {
         <div className="Navbar">
             <div className="leftSide">
                 <div className="logo-area">
-                    <Link onClick={() => setShowLinks(!showLinks)}
+                    {/* onClick always to false to prevent the hamburger menu to open by pressing the logo.
+                        The logo only closes the hamburger menu if it's opened when the logo is pressed. */}
+                    <Link onClick={() => setShowLinks(false)}
                         activeClass="active"
                         to="home"
                         spy={false}
                         smooth={true}
                         offset={-300}
                         duration={500}>
-                        <img src={ Logo } className="profilepic" alt="Logo" />
+                        <img src={ Logo } className="profilepic" alt="Navigation bar logo of me" />
                     </Link>
                 </div>
                 <div className="nav-links" id={showLinks ? "hidden" : ""}>
