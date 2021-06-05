@@ -22,7 +22,8 @@
 .intro-firstname {
     width: 100%;
     margin-top: 2%;
-    padding-left: 10%;
+    margin-left: 10%;
+    /* padding-left: 10%; */
     font-size: 10vw;
     color: white;
     font-family: 'Permanent Marker', cursive;
@@ -31,15 +32,16 @@
 .intro-lastname {
     width: 100%;
     margin-top: 5%;
-    padding-left: 15%;
+    margin-left: 15%;
+    /* padding-left: 15%; */
     font-size: 12vw;
     color: white;
     font-family: 'Permanent Marker', cursive;
 }
 
 .intro-text {
-    text-align: center;
-    margin-left: 100px;
+    /* padding-left: 12%; */
+    margin-left: 12%;
 }
 
 .row1 {

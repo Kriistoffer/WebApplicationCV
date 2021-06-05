@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Row, Col } from 'reactstrap';
 import './About.css';
 import About_photo from '../assets/about_pic.jpg';
 
@@ -6,7 +7,7 @@ export class About extends Component {
     render() {
         return (
             <section className="about-section div-border" id="about">
-                <div className="about-area div-border">
+                <Col className="about-area div-border" lg="12" md="6">
                     <div className="top-section">
                         <div className="photo-section">
                             <img src={About_photo} alt="profile of me" className="about-photo" />
@@ -22,7 +23,7 @@ export class About extends Component {
 
                     <div className="bottom-section">
                         <div className="text-section">
-                            <p className="p-text">Mitt namn är Kristoffer Johansson. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. 
+                            <p className="p-text">Mitt namn är Kristoffer Johansson. ÅÄÖ. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. 
                             Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. 
                             Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. 
                             Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. </p>
@@ -31,7 +32,7 @@ export class About extends Component {
                         </div>
 
                     </div>
-                </div>
+                </Col>
             </section>
         );
     }

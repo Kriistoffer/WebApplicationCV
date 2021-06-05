@@ -1,7 +1,7 @@
 .nav-btn {
-    background-color: transparent;
-	border-radius: 0px;
-	border: transparent;
+    background-color: magenta;
+	border-radius: 20%;
+	border: 2px solid white;
 	display:inline-block;
 	cursor: pointer;
 	color: #ffffff;

@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+}
+
+.Navbar {
+    background-color: black;
+    border-bottom: 4px solid white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    position: fixed;
+    z-index: 3;
+}
+
+.Navbar .leftSide {
+    flex: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo-area {
+    width: 110px;
+    margin-left: 10%;
+}
+
+.logo {
+    width: 110px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.Navbar .leftSide .nav-links {
+    max-height: 150px;
+    padding-left: 3%;
+}
+
+.Navbar .leftSide .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.Navbar .leftSide .nav-links a:hover {
+    text-decoration: none;
+    color: orange;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.Navbar .leftSide button {
+    display: none;
+}
+
+.Navbar .leftSide .ham-menu {
+    display: none;
+}
+
+.Navbar .leftSide #hidden {
+    display: flex;
+
+}
+
+
+.Navbar .rightSide {
+    flex: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.contact-icons {
+    padding-right: 55px;
+}
+
+.github-icon {
+    color: white;
+}
+
+.github-icon:hover {
+    color: orange;
+}
+
+.linkedin-icon {
+    color: white;
+    margin-left: 35px;
+}
+
+.linkedin-icon:hover {
+    color: orange;
+}
+
+@media only screen and (max-width: 850px) {
+    .Navbar .leftSide .nav-links a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Navbar .leftSide .nav-links a {
+        font-size: 15px;
+    }
+
+    .Navbar .leftSide .logo-area {
+        width: 110px;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .Navbar .leftSide button {
+        display: flex;
+    }
+
+    .Navbar .leftSide .ham-menu {
+        color: white;
+        cursor: pointer;
+        margin-left: 5%;
+        display: flex;
+        left: 0;
+        position: absolute;
+    }
+
+    .Navbar .leftSide .logo-area {
+        display: flex;
+        margin-left: 110px;
+    }
+
+    .Navbar .leftSide .nav-links {
+        display: none;
+        padding-left: 0;
+    }
+
+    .Navbar .leftSide #hidden {
+        position: absolute;
+        left: 0px;
+        top: 150px;
+        max-height: 300px;
+        height: 200px;
+        width: 100vw;
+        background-color: magenta;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 4px solid white;
+    }
+
+    .Navbar .leftSide #hidden a {
+        margin: 2px;
+        font-size: 25px;
+    }
+
+    .Navbar .leftSide .nav-links .nav-button {
+        border: none;
+    }
+
+    .Navbar .leftSide .nav-links .nav-button:hover {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+
+    .Navbar .leftSide .logo-area {
+        display: none;
+    }
+
+    .Navbar .rightSide {
+        flex: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+.div-border {
+    border: 2px solid magenta;
+}
+
+.nav-button {
+    background-color: transparent;
+	border-radius: 20%;
+	border: 2px solid white;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 1vw;
+	padding: 8px 16px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #2f6627;
+    margin-right: 20px;
+}
+
+.nav-btn:hover {
+	color: orange;
+}

@@ -9,11 +9,13 @@ import { Work } from './components/Work';
 import { Education } from './components/Education';
 import { Qualifications } from './components/Qualifications';
 import { Projects } from './components/Projects';
+import Navigationbar from './components/Navigationbar';
 
 function App() {
   return (
     <div className="background">
-      <Navbar/>
+      {/* <Navbar/> */}
+      <Navigationbar/>
       <Home/>
       <About/>
       <Work/>
