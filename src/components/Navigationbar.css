@@ -30,6 +30,10 @@ body {
     border: 2px solid white;
 }
 
+.logo:hover {
+    border: 2px solid orange;
+}
+
 .Navbar .leftSide .nav-links {
     max-height: 150px;
     padding-left: 3%;
@@ -49,7 +53,7 @@ body {
     margin-left: 15px;
 }
 
-.Navbar .leftSide button {
+.Navbar .leftSide button #ham {
     display: none;
 }
 
@@ -76,6 +80,7 @@ body {
 
 .github-icon {
     color: white;
+    cursor: pointer;
 }
 
 .github-icon:hover {
@@ -85,6 +90,7 @@ body {
 .linkedin-icon {
     color: white;
     margin-left: 35px;
+    cursor: pointer;
 }
 
 .linkedin-icon:hover {
@@ -155,6 +161,18 @@ body {
     }
 
     .Navbar .leftSide .nav-links .nav-button:hover {
+        color: white;
+    }
+
+    .logo:hover {
+        border: 2px solid white;
+    }
+
+    .github-icon:hover {
+        color: white;
+    }
+
+    .linkedin-icon:hover {
         color: white;
     }
 }
