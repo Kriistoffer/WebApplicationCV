@@ -16,7 +16,7 @@ function Navigationbar() {
         <div className="Navbar">
             <div className="leftSide">
                 <div className="logo-area">
-                    <Link
+                    <Link onClick={() => setShowLinks(!showLinks)}
                         activeClass="active"
                         to="home"
                         spy={false}
@@ -27,7 +27,7 @@ function Navigationbar() {
                     </Link>
                 </div>
                 <div className="nav-links" id={showLinks ? "hidden" : ""}>
-                    <Link
+                    <Link onClick={() => setShowLinks(!showLinks)}
                         activeClass="active"
                         to="about"
                         spy={false}
@@ -36,7 +36,7 @@ function Navigationbar() {
                         duration={500}>
                         <NavButton value="Om" />
                     </Link>
-                    <Link
+                    <Link onClick={() => setShowLinks(!showLinks)}
                         activeClass="active"
                         to="work"
                         spy={false}
@@ -45,14 +45,14 @@ function Navigationbar() {
                         duration={500}>
                         <NavButton value="Arbete" />
                     </Link>
-                    <Link
+                    <Link onClick={() => setShowLinks(!showLinks)}
                         activeClass="active"
                         to="projects"
                         spy={false}
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <NavButton value="Projekt" onClick={() => setShowLinks(!showLinks)} />
+                        <NavButton value="Projekt" />
                     </Link>
                     {/* <a href="/About" className="nav-button" onClick={() => setShowLinks(!showLinks)}>Om</a>
                     <a href="/Work" className="nav-button" onClick={() => setShowLinks(!showLinks)}>Arbete</a>
