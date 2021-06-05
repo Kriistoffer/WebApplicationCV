@@ -16,9 +16,15 @@ function Navigationbar() {
         <div className="Navbar">
             <div className="leftSide">
                 <div className="logo-area">
-                    <a href="/" onClick={() => setShowLinks(!showLinks)}>
-                        <img src={Logo} alt="logo of me" className="logo" />
-                    </a>
+                    <Link
+                        activeClass="active"
+                        to="home"
+                        spy={false}
+                        smooth={true}
+                        offset={-300}
+                        duration={500}>
+                        <img src={ Logo } className="profilepic" alt="Logo" />
+                    </Link>
                 </div>
                 <div className="nav-links" id={showLinks ? "hidden" : ""}>
                     <Link
@@ -46,7 +52,7 @@ function Navigationbar() {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <NavButton value="Projekt" />
+                        <NavButton value="Projekt" onClick={() => setShowLinks(!showLinks)} />
                     </Link>
                     {/* <a href="/About" className="nav-button" onClick={() => setShowLinks(!showLinks)}>Om</a>
                     <a href="/Work" className="nav-button" onClick={() => setShowLinks(!showLinks)}>Arbete</a>
