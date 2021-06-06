@@ -40,20 +40,6 @@ body {
     padding-left: 3%;
 }
 
-.Navbar .leftSide .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    margin-left: 15px;
-}
-
-.Navbar .leftSide .nav-links a:hover {
-    text-decoration: none;
-    color: orange;
-    font-size: 25px;
-    margin-left: 15px;
-}
-
 .Navbar .leftSide button #ham {
     display: none;
 }
@@ -72,16 +58,44 @@ body {
     flex: 50%;
     display: flex;
     justify-content: right;
-    align-items: center;
+}
+
+.nav-dl-cv {
+    width: 180px;
+    background-color:transparent;
+	border-radius:28px;
+	border:2px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 18px;
+	padding: 8px 16px;
+	text-decoration:none;
+    margin-left: 35px;
+}
+
+.nav-dl-cv:hover {
+    color: orange;
 }
 
 .contact-icons {
     padding-right: 55px;
 }
 
+.mail-icon {
+    color: white;
+    cursor: pointer;
+}
+
+.mail-icon:hover {
+    color: orange;
+}
+
 .github-icon {
     color: white;
     cursor: pointer;
+    margin-left: 35px;
 }
 
 .github-icon:hover {
@@ -118,6 +132,18 @@ body {
         margin-left: 10px;
         width: 70px;
         font-size: 14px;
+    }
+
+    .Navbar .rightSide {
+        align-items: center;
+    }
+
+    .mail-icon {
+        display: none;
+    }
+    
+    .nav-dl-cv {
+        display: none;
     }
 }
 

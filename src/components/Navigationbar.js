@@ -3,6 +3,7 @@ import Logo from '../assets/profile_pic.png';
 import './Navigationbar.css';
 import { Link } from 'react-scroll';
 import { FaGithub, FaLinkedin, FaAlignJustify } from 'react-icons/fa';
+import { IoIosMail } from 'react-icons/io';
 import { Component } from 'react';
 import { NavButton } from './NavButton';
 
@@ -25,7 +26,7 @@ function Navigationbar() {
                         smooth={true}
                         offset={0}
                         duration={500}>
-                        <img src={ Logo } className="profilepic" alt="Navigation bar logo of me" />
+                        <img src={Logo} className="profilepic" alt="Navigation bar logo of me" />
                     </Link>
                 </div>
                 <div className="nav-links" id={showLinks ? "hidden" : ""}>
@@ -66,8 +67,10 @@ function Navigationbar() {
 
             <div className="rightSide">
                 <div className="contact-icons">
+                    <IoIosMail size="3em" className="mail-icon" />
                     <FaGithub size="3em" className="github-icon" />
                     <FaLinkedin size="3em" className="linkedin-icon" />
+                    <button className="nav-dl-cv">Ladda ner CV</button>
                 </div>
             </div>
         </div>
