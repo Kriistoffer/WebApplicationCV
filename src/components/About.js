@@ -7,32 +7,7 @@ export class About extends Component {
     render() {
         return (
             <section className="about-section div-border" id="about">
-                <Col className="about-area div-border" lg="12" md="6">
-                    <div className="top-section">
-                        <div className="photo-section">
-                            <img src={About_photo} alt="profile of me" className="about-photo" />
-                        </div>
-
-                        <div className="photo-text">
-                            <h1 className="h1-text">Namn: Kristoffer Johansson</h1>
-                            <h1 className="h1-text">Ålder: 28 år</h1>
-                            <h1 className="h1-text">Bor: Kungälv</h1>
-                        </div>
-
-                    </div>
-
-                    <div className="bottom-section">
-                        <div className="text-section">
-                            <p className="p-text">Mitt namn är Kristoffer Johansson. ÅÄÖ. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. 
-                            Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. 
-                            Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. 
-                            Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. Blabla bla bla blablabla. </p>
-
-                            <p className="p-text">asdhaksd aksdhaksjdh kajhsdkashd kajhsdakd kjahsdkajhsd kjahsdkajhsd jkhasdkahds kjhasdkjha jkhasdkjahd kjahsdkjas</p>
-                        </div>
-
-                    </div>
-                </Col>
+                
             </section>
         );
     }
