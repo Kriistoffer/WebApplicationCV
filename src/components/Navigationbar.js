@@ -23,7 +23,7 @@ function Navigationbar() {
                         to="home"
                         spy={false}
                         smooth={true}
-                        offset={-300}
+                        offset={0}
                         duration={500}>
                         <img src={ Logo } className="profilepic" alt="Navigation bar logo of me" />
                     </Link>
