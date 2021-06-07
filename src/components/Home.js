@@ -6,7 +6,7 @@ import TypeWriterEffect from 'react-typewriter-effect';
 export class Home extends Component {
     render() {
         return (
-            <div className="home-section div-border" id="home">
+            <div className="home-section" id="home">
                 <div className="intro-firstname">
                     <p>Kristoffer</p>
                 </div>
