@@ -39,7 +39,7 @@ function Navigationbar() {
                         duration={500}>
                         <NavButton value="Om" />
                     </Link>
-                    <Link onClick={() => setShowLinks(!showLinks)}
+                    {/* <Link onClick={() => setShowLinks(!showLinks)}
                         activeClass="active"
                         to="work"
                         spy={false}
@@ -47,13 +47,13 @@ function Navigationbar() {
                         offset={0}
                         duration={500}>
                         <NavButton value="Arbete" />
-                    </Link>
+                    </Link> */}
                     <Link onClick={() => setShowLinks(!showLinks)}
                         activeClass="active"
                         to="projects"
                         spy={false}
                         smooth={true}
-                        offset={0}
+                        offset={-240}
                         duration={500}>
                         <NavButton value="Projekt" />
                     </Link>

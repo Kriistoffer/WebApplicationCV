@@ -5,11 +5,34 @@ import Pic1 from '../assets/calculator.png';
 import Pic2 from '../assets/ecommerce.jpg';
 import Pic3 from '../assets/bicycle.png';
 import Pic4 from '../assets/resume.jpg';
+import { FaBorderNone } from 'react-icons/fa';
 
 export class Projects extends Component {
+
+    constructor() {
+        super();
+        this.state = {
+            numOfRepos: 0,
+            name1: null
+        }
+    }
+
+    componentDidMount() {
+        fetch('https://api.github.com/users/Kriistoffer/repos')
+            .then(response => response.json())
+            .then(json => {
+                this.setState({
+                    numOfRepos: json.length
+                    // name1: json.name[0]
+                })
+            });
+    }
+
     render() {
         return (
+
             <div className="projects-section" id="projects">
+                <div className="top-section">Antal respositories på min GitHub just nu: <div className="repo-text"> {this.state.numOfRepos} </div></div>
                 <div className="card-div">
                     <ProjectCard
                         src={Pic1}
@@ -37,6 +60,7 @@ export class Projects extends Component {
                         src={Pic3}
                         alt="bicycle"
                         CardTitle="BicycleRental"
+                        // CardTitle={this.state.name1}
                         CardSubtitle="Inlämningsuppgift i skolan."
                         CardText="En skoluppgift där jag skapade en applikation som man kunde hyra cyklar genom. Applikationen är kopplad till en databas med all information."
                         a="https://github.com/Kriistoffer/BicycleRental"
