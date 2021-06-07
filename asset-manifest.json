@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/WebApplicationCV/static/css/main.d24b7e1a.chunk.css",
-    "main.js": "/WebApplicationCV/static/js/main.05f52054.chunk.js",
-    "main.js.map": "/WebApplicationCV/static/js/main.05f52054.chunk.js.map",
+    "main.css": "/WebApplicationCV/static/css/main.e9cbb3b6.chunk.css",
+    "main.js": "/WebApplicationCV/static/js/main.5f6fc22a.chunk.js",
+    "main.js.map": "/WebApplicationCV/static/js/main.5f6fc22a.chunk.js.map",
     "runtime-main.js": "/WebApplicationCV/static/js/runtime-main.7b8d238a.js",
     "runtime-main.js.map": "/WebApplicationCV/static/js/runtime-main.7b8d238a.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/WebApplicationCV/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.8d4b6ec7.chunk.js": "/WebApplicationCV/static/js/2.8d4b6ec7.chunk.js",
-    "static/js/2.8d4b6ec7.chunk.js.map": "/WebApplicationCV/static/js/2.8d4b6ec7.chunk.js.map",
+    "static/js/2.2bd89c13.chunk.js": "/WebApplicationCV/static/js/2.2bd89c13.chunk.js",
+    "static/js/2.2bd89c13.chunk.js.map": "/WebApplicationCV/static/js/2.2bd89c13.chunk.js.map",
     "index.html": "/WebApplicationCV/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/WebApplicationCV/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.d24b7e1a.chunk.css.map": "/WebApplicationCV/static/css/main.d24b7e1a.chunk.css.map",
-    "static/js/2.8d4b6ec7.chunk.js.LICENSE.txt": "/WebApplicationCV/static/js/2.8d4b6ec7.chunk.js.LICENSE.txt",
+    "static/css/main.e9cbb3b6.chunk.css.map": "/WebApplicationCV/static/css/main.e9cbb3b6.chunk.css.map",
+    "static/js/2.2bd89c13.chunk.js.LICENSE.txt": "/WebApplicationCV/static/js/2.2bd89c13.chunk.js.LICENSE.txt",
     "static/media/about_pic.1b3e771f.jpg": "/WebApplicationCV/static/media/about_pic.1b3e771f.jpg",
+    "static/media/bicycle.2065cc3c.png": "/WebApplicationCV/static/media/bicycle.2065cc3c.png",
+    "static/media/calculator.17a8f9d0.png": "/WebApplicationCV/static/media/calculator.17a8f9d0.png",
     "static/media/cv_kristoffer_johansson.006cb600.pdf": "/WebApplicationCV/static/media/cv_kristoffer_johansson.006cb600.pdf",
-    "static/media/profile_pic.b31d6295.png": "/WebApplicationCV/static/media/profile_pic.b31d6295.png"
+    "static/media/ecommerce.3173a241.jpg": "/WebApplicationCV/static/media/ecommerce.3173a241.jpg",
+    "static/media/profile_pic.b31d6295.png": "/WebApplicationCV/static/media/profile_pic.b31d6295.png",
+    "static/media/resume.b7053629.jpg": "/WebApplicationCV/static/media/resume.b7053629.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7b8d238a.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.8d4b6ec7.chunk.js",
-    "static/css/main.d24b7e1a.chunk.css",
-    "static/js/main.05f52054.chunk.js"
+    "static/js/2.2bd89c13.chunk.js",
+    "static/css/main.e9cbb3b6.chunk.css",
+    "static/js/main.5f6fc22a.chunk.js"
   ]
 }
