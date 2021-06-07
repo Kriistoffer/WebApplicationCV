@@ -1,48 +1,40 @@
 .about-section {
-    height: 100vh;
     width: 100%;
+    height: 80vh;
     top: 0;
     margin-top: 0;
     text-align: center;
     overflow-x: hidden;
 }
 
-.about-area {
-    width: 80%;
-    height: 80%;
-    margin-top: 5%;
-    margin-left: 10%;
-}
-
-.top-section {
-    width: 100%;
-    height: 40%;
-}
-
 .photo-section {
-    width: 18%;
-    height: 100%;
+    width: 10%;
     margin: 0 auto;
+    margin-top: 2%;
 }
 
 .about-photo {
-    width: 80%;
+    width: 100%;
     border-radius: 20%;
     border: 2px solid white;
 }
 
-.bottom-section {
-    width: 100%;
-    height: 60%;
-
-}
-
-.text-section {
-    height: 100%;
+.about-text {
     width: 60%;
-    margin-left: 20%;
+    margin: 0 auto;
+    color: white;
+    margin-top: 2%;
+    font-size: 25px;
 }
 
+.wordcloud-section {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border: 4px solid white;
+}
+
+/*Div-border is used for testing purposes to see exactly where a div is located.*/
 .div-border {
     border: 2px solid magenta;
 }
