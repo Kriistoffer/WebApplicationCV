@@ -15,4 +15,6 @@ React TagCloud: https://preview.npmjs.com/package/react-tagcloud
 
 ## Additional libraries
 
-Besides external components I've also used libraries such as React-icons and Reactstrap.
+Besides external components I've also used libraries such as:
+React-icons: https://react-icons.github.io/react-icons 
+and Reactstrap: https://reactstrap.github.io/
