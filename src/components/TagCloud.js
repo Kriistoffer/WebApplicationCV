@@ -12,11 +12,12 @@ const data = [
     { value: 'Python', count: 2 },
     { value: 'HTML', count: 24 },
     { value: 'CSS', count: 22 },
-    { value: 'React', count: 16 },
+    { value: 'React.js', count: 16 },
     { value: 'Visual Basic', count: 2 },
     { value: 'Java', count: 20 },
     { value: 'Git', count: 22 },
     { value: 'UML', count: 18 },
+    { value: 'ASP.NET', count: 20},
 ]
 
 //  const WordCloud = () => (

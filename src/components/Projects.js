@@ -12,8 +12,8 @@ export class Projects extends Component {
     constructor() {
         super();
         this.state = {
-            numOfRepos: 0,
-            name1: null
+            numOfRepos: 0
+            // names: []
         }
     }
 
@@ -23,7 +23,7 @@ export class Projects extends Component {
             .then(json => {
                 this.setState({
                     numOfRepos: json.length
-                    // name1: json.name[0]
+                    // names: json.name
                 })
             });
     }
@@ -60,7 +60,7 @@ export class Projects extends Component {
                         src={Pic3}
                         alt="bicycle"
                         CardTitle="BicycleRental"
-                        // CardTitle={this.state.name1}
+                        // CardTitle={this.state.names[0]}
                         CardSubtitle="Inlämningsuppgift i skolan."
                         CardText="En skoluppgift där jag skapade en applikation som man kunde hyra cyklar genom. Applikationen är kopplad till en databas med all information."
                         a="https://github.com/Kriistoffer/BicycleRental"
@@ -78,7 +78,6 @@ export class Projects extends Component {
                         a="https://github.com/Kriistoffer/WebApplicationCV"
                     />
                 </div>
-
             </div>
         );
     }
