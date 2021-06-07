@@ -4,8 +4,8 @@ import './Navigationbar.css';
 import { Link } from 'react-scroll';
 import { FaGithub, FaLinkedin, FaAlignJustify } from 'react-icons/fa';
 import { IoIosMail } from 'react-icons/io';
-import { Component } from 'react';
 import { NavButton } from './NavButton';
+import MyCV from '../assets/cv_kristoffer_johansson.pdf';
 
 
 function Navigationbar() {
@@ -35,7 +35,7 @@ function Navigationbar() {
                         to="about"
                         spy={false}
                         smooth={true}
-                        offset={0} //-130
+                        offset={-150} //-130
                         duration={500}>
                         <NavButton value="Om" />
                     </Link>
@@ -57,20 +57,24 @@ function Navigationbar() {
                         duration={500}>
                         <NavButton value="Projekt" />
                     </Link>
-                    {/* <a href="/About" className="nav-button" onClick={() => setShowLinks(!showLinks)}>Om</a>
-                    <a href="/Work" className="nav-button" onClick={() => setShowLinks(!showLinks)}>Arbete</a>
-                    <a href="/Projects" className="nav-button" onClick={() => setShowLinks(!showLinks)}>Projekt</a> */}
                 </div>
-                {/* <button onClick={()=> setShowLinks(!showLinks)}><FaAlignJustify /></button> */}
                 <FaAlignJustify className="ham-menu" id="ham" size="2em" onClick={() => setShowLinks(!showLinks)} />
             </div>
 
             <div className="rightSide">
                 <div className="contact-icons">
-                    <IoIosMail size="3em" className="mail-icon" />
-                    <FaGithub size="3em" className="github-icon" />
-                    <FaLinkedin size="3em" className="linkedin-icon" />
-                    <button className="nav-dl-cv">Ladda ner CV</button>
+                    <a href="mailto:kjohansson93@hotmail.se">
+                        <IoIosMail size="3em" className="mail-icon" />
+                    </a>
+                    <a href="https://github.com/Kriistoffer" target="_blank" rel="noreferrer">
+                        <FaGithub size="3em" className="github-icon" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/kristoffer-johansson-5735591a0/" target="_blank" rel="noreferrer">
+                        <FaLinkedin size="3em" className="linkedin-icon" />
+                    </a>
+                    <a href={MyCV} download="cv_kristoffer_johansson.pdf">
+                        <button className="nav-dl-cv">Ladda ner CV</button>
+                    </a>
                 </div>
             </div>
         </div>
