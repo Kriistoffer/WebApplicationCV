@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './Projects.css';
-import { ProjectCard } from './ProjectCard';
-import Pic1 from '../assets/calculator.png';
-import Pic2 from '../assets/ecommerce.jpg';
-import Pic3 from '../assets/bicycle.png';
-import Pic4 from '../assets/resume.jpg';
+import { ProjectCard } from '../../components/ProjectCard';
+import Pic1 from '../../assets/calculator.png';
+import Pic2 from '../../assets/ecommerce.jpg';
+import Pic3 from '../../assets/bicycle.png';
+import Pic4 from '../../assets/resume.jpg';
 import { FaBorderNone } from 'react-icons/fa';
 
 export class Projects extends Component {
