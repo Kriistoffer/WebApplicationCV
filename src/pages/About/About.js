@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './About.css';
-import About_photo from '../assets/about_pic.jpg';
-import WordCloud from './TagCloud';
+import About_photo from '../../assets/about_pic.jpg';
+import WordCloud from '../../components/TagCloud';
 
 
 
